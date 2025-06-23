@@ -11,4 +11,5 @@ services:
         sync: false
       - key: SESSION_STRING
         sync: false
-    pythonVersion: 3.10
+    build:
+      pythonVersion: 3.10
